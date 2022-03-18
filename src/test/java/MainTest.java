@@ -15,8 +15,8 @@ public class MainTest {
     @Test
     public void testDivWithRemFail(){
         Main main = new Main();
-        main.divisionWithRemainder(8, 5);
-        assertEquals(0, main.divisionWithRemainder(8, 5));
+        main.divisionWithRemainder(8, 8);
+        assertEquals(0, main.divisionWithRemainder(8, 8));
 
     }
 }
