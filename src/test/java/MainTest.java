@@ -21,6 +21,6 @@ public class MainTest {
     @Test
     public void testError(){
         Main main = new Main();
-        assertEquals( 8, main.divisionWithRemainder(8, 5));
+        assertEquals( 3, main.divisionWithRemainder(8, 5));
     }
 }
